@@ -31,4 +31,4 @@ I created this repository to:
 + Showcase Project          [ ] Not Started
 ```
 ## Table of Contents
-- [Basics](#-basics)
+- [Basics](Basics/index.md)

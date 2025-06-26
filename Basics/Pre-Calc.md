@@ -1,0 +1,57 @@
+## Pre-Calc
+
+### Important Math Notations
+
+**Inclusive set** [ ] <br>
+**Exclusive set** ( ) - always used with $\infty$
+
+### Intro to Functions
+A function is a relationship that maps **one input** ($x$ values) to **one output** ($y$ or $f(x)$ values). An input **never** gives more than 1 output
+
+> **Example 1:** two inputs share one output - still a function
+
+| Work Hours |   | Pay |
+|-----------:|:-:|----:|
+| 2 hrs      | → | $30 |
+| 4 hrs      | → | $60 |
+| 6 hrs      | → | $90 |
+| 8 hrs      | → | $90 |  
+
+$S = \set{(-2, 16), (-1,4), (0,3)}$<br>
+$y = -7x +5$<br>
+$y= 2x^2 -5x +4$<br>
+
+> **Example 2:** one input has two outputs - not a function
+
+| Work Hours |   | Pay |
+|-----------:|:-:|----:|
+| 2 hrs      | → | $30 |
+| 4 hrs      | → | $60 |
+| 4 hrs      | → | $90 |
+
+$R = \set{(-2, 16), (-1,4), (-2,16)}$<br>
+$y = \pm\sqrt{3-2x}$
+
+**Domain:** Set of inputs<br>
+**Range:** Set of outputs
+
+### Finding Domain
+
+**Domain:** Set of inputs of a function that give a **real** number output, square roots need to be positive.
+Domain of root functions carries through operations. Always find domain of function before operations.
+
+> **Example 1:** Finding solution to equality
+
+$f(x) = \sqrt{5-4x}$<br>$5-4x \ge 0$<br>$x \ge \frac{5}{4}$<br>
+
+Domain = $\{\, x \mid x \le \frac{5}{4}\,\}$
+
+> **Example 2:** Denominators can never equal 0
+
+$g(t) = \frac{5t}{t^3 -16t}$<br>$t^3 - 16t = 0$<br>$t(t^2 -16) = 0$<br>$t(t-4)(t+4) = 0$<br>
+
+$D:\{\, t \mid t\in\mathbb{R}, t \neq -4, t \neq 0, t \neq 4\,\}$<br>
+$(-\infty, -4) \cup (-4, 0) \cup (0, 4) \cup (4, \infty)$
+
+> **Example 3:** Verticle line test
+
