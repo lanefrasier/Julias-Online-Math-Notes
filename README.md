@@ -30,3 +30,5 @@ I created this repository to:
 + HPC Fundamentals          [ ] Not Started
 + Showcase Project          [ ] Not Started
 ```
+## Table of Contents
+- [Basics](#-basics)
