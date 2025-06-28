@@ -15,6 +15,14 @@ I created this repository to:
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ---
 
+## About Me
+
+I’ve always had a restless curiosity about **how** things work and, more importantly, **why** they work. Digging into the deeper questions gives me clarity and a solid foundation for real-world applications, which is why I majored in pure mathematics for my undergraduate degree. 
+
+Mathematics offers a universal lens. From the principle axioms, entire worlds of math can be extrapolated. As innovation and technology accelerate, I’m eager to help elevate that foundation into more advanced areas. **Quantum computing captivates me precisely because it once looked impossible.** That seeming impossibility fuels my drive to explore, understand, and ultimately contribute meaningful advances to the field.
+
+---
+
 ## Progress
 
 ```diff
