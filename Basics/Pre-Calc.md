@@ -53,5 +53,39 @@ $g(t) = \frac{5t}{t^3 -16t}$<br>$t^3 - 16t = 0$<br>$t(t^2 -16) = 0$<br>$t(t-4)(t
 $D:\{\, t \mid t\in\mathbb{R}, t \neq -4, t \neq 0, t \neq 4\,\}$<br>
 $(-\infty, -4) \cup (-4, 0) \cup (0, 4) \cup (4, \infty)$
 
-> **Example 3:** Verticle line test
+> **Example 3:** Vertical line test
 
+![Vertical-line-test](Recap.jpg)
+
+**Even function** symmetric about the y-axis <br>
+$f(x) = f(-x)$
+
+**Odd function** Symmetric about the origin - totate 180 and fold twice over y then x <br>
+$-f(x) = f(-x)$
+
+![Even-odd-functions](even-odd-fn.png)
+
+**Increasing** $x_1 < x_2$ for $f(x_1) < f(x_2)$ <br>
+**Decreasing** $ x_1 < x_2$ for $f(x_1) > f(x_2)$<br>
+**Local/Relative Max** On an open interval $f(x) \le f(c)$ where $c$ is a local max. Function changes from increasing to decreasing. Cannot ocur at an endpoint.<br>
+**Local/Relative Min** $f(x) \ge f(c)$ where $c$ is a local min. Function changes from decreasing to increasing. Cannot occur at an endpoint. <br>
+**Absolute Max** Highest output of the function. Can occur at endpoints<br>
+**Absolute Min** Lowest output of the function. Can occur at endpoints.<br>
+**Average rate of change** $\frac{f(b) - f(a)}{b-a}$<br>
+> **Example** Find Average rate of change of $f(x) = x^2 - 2x$ from $x = 3$ to $x=5$<br>
+$f(3) = 9-6 = 3$<br>
+$f(5) = 25-10 = 15$<br>
+Average rate of change $ \frac{15 -3}{5-3} = \frac{12}{2} = 6$
+**Equation of a line** $y -y_1 = m(x-x_1)$<br>
+**Piece-wise functions**<br>
+
+![piece-wise-functions](piece-wise.png)
+**Popular graphs**<br>
+$f(x) = 3$ <br>
+![constant-graph](constant.gif)<br>
+$f(x) = x$<br>
+![f(x)=x](x.png)<br>
+$f(x) = \sqrt[3]{x}$
+![f(x)=root(3)](rootx.png)<br>
+$f(x) = \abs{x}$
+![abs-value-x](absolutevalue.jpg)<br>
