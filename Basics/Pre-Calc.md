@@ -105,3 +105,10 @@ $f(x) = \abs{x}$
   <!-- Optional annotation -->
   <text x="-3" y="-10.5" font-size="0.8" text-anchor="middle" fill="crimson">x = −3</text>
 </svg>
+
+## Domain → Codomain (Vertical-Line Test)
+
+```mermaid
+graph TD
+  x1[(−3)] --> y1[(5)]
+  x2[(−3)] --> y2[(−5)]
