@@ -89,3 +89,19 @@ $f(x) = \sqrt[3]{x}$
 ![f(x)=root(3)](rootx.png)<br>
 $f(x) = \abs{x}$
 ![abs-value-x](absolutevalue.jpg)<br>
+
+<!-- Simple vertical-line test diagram -->
+<svg width="220" height="220" viewBox="-11 -11 22 22">
+  <!-- Axes -->
+  <line x1="-10" y1="0"  x2="10" y2="0"  stroke="#888" stroke-width="0.2"/>
+  <line x1="0"  y1="-10" x2="0" y2="10" stroke="#888" stroke-width="0.2"/>
+
+  <!-- Example curve (half of a sideways parabola) -->
+  <path d="M -9 9 Q -4 0 1 9" fill="none" stroke="#0645AD" stroke-width="0.4"/>
+
+  <!-- Vertical test line  -->
+  <line x1="-3" y1="-10" x2="-3" y2="10" stroke="crimson" stroke-width="0.4"/>
+
+  <!-- Optional annotation -->
+  <text x="-3" y="-10.5" font-size="0.8" text-anchor="middle" fill="crimson">x = −3</text>
+</svg>
