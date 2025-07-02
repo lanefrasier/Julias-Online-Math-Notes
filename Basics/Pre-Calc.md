@@ -1,12 +1,14 @@
 ## Pre-Calc
 
-### Important Math Notations
+### Important Math Notations/Definitions
 
 **Inclusive set** [ ] <br>
-**Exclusive set** ( ) - always used with $\infty$
+**Exclusive set** ( ) - always used with $\infty$<br>
+**Domain:** Set of inputs of a function that give a **real** number output, square roots need to be positive.<br>
+**Range:** Set of outputs
 
 ### Intro to Functions
-A function is a relationship that maps **one input** ($x$ values) to **one output** ($y$ or $f(x)$ values). An input **never** gives more than 1 output
+A function is a relationship that maps **one input** ($x$ values) to **one output** ($y$ or $f(x)$ values). An input **never** gives more than 1 output.
 
 > **Example 1:** two inputs share one output - still a function
 
@@ -32,19 +34,15 @@ $y= 2x^2 -5x +4$<br>
 $R = \set{(-2, 16), (-1,4), (-2,16)}$<br>
 $y = \pm\sqrt{3-2x}$
 
-**Domain:** Set of inputs<br>
-**Range:** Set of outputs
-
 ### Finding Domain
 
-**Domain:** Set of inputs of a function that give a **real** number output, square roots need to be positive.
-Domain of root functions carries through operations. Always find domain of function before operations.
+Domains of root functions carries through operations. Always find domain of function before operations.
 
 > **Example 1:** Finding solution to equality
 
 $f(x) = \sqrt{5-4x}$<br>$5-4x \ge 0$<br>$x \ge \frac{5}{4}$<br>
 
-Domain = $\{\, x \mid x \le \frac{5}{4}\,\}$
+Domain = $\set{x \mid x \le \frac{5}{4}}$
 
 > **Example 2:** Denominators can never equal 0
 

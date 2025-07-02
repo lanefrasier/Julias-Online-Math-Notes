@@ -9,7 +9,7 @@ I created this repository to:
 
 ---
 ## Badges
-![Last Commit](https://img.shields.io/github/last-commit/<USER>/<REPO>)
+![Last Commit](https://img.shields.io/github/last-commit/lanefrasier/Julias-Online-Math-Notes)
 ![Type: Study Notes](https://img.shields.io/badge/type-study--notes-yellow)
 ![Built with Markdown](https://img.shields.io/badge/built%20with-Markdown-1f425f.svg)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
