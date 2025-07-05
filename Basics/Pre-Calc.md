@@ -51,25 +51,8 @@ $g(t) = \frac{5t}{t^3 -16t}$<br>$t^3 - 16t = 0$<br>$t(t^2 -16) = 0$<br>$t(t-4)(t
 $D:\{\, t \mid t\in\mathbb{R}, t \neq -4, t \neq 0, t \neq 4\,\}$<br>
 $(-\infty, -4) \cup (-4, 0) \cup (0, 4) \cup (4, \infty)$
 
-> **Example 3:** Vertical line test
- 
-<div align="center">
-  <img src="/images/vertical_line_test_true.svg" width="320" alt="Parabola with vertical test line">
-</div>
-
-
-<!-- Vertical-line test: parabola & test line -->
-
-<svg width="300" height="180" viewBox="0 0 300 180"
-     xmlns="http://www.w3.org/2000/svg" stroke-width="2" fill="none">
-
-  <!-- parabola y = x² shifted/scaled to fit -->
-  <path d="M 0 150 Q 150 0 300 150" stroke="#0645AD"/>
-  
-  <!-- vertical test line -->
-  <line x1="200" y1="10" x2="200" y2="170" stroke="crimson"/>
-</svg>
-
+> **Example 3:** Vertical line test<br>
+<img src="../images/vertical_line_test_false.svg" width="220" alt="Fails V-line test"> <img src="../images/vertical_line_test_true.svg" width="220" alt="Passes V-line test">
 
 **Even function** symmetric about the y-axis <br>
 $f(x) = f(-x)$
@@ -77,7 +60,7 @@ $f(x) = f(-x)$
 **Odd function** Symmetric about the origin - totate 180 and fold twice over y then x <br>
 $-f(x) = f(-x)$
 
-![Even-odd-functions](even-odd-fn.png)
+<img src="../images/even-odd-fn.png" width="420" alt="Even/Odd fn"><br>
 
 **Increasing** $x_1 < x_2$ for $f(x_1) < f(x_2)$ <br>
 **Decreasing** $ x_1 < x_2$ for $f(x_1) > f(x_2)$<br>
@@ -93,36 +76,59 @@ Average rate of change $ \frac{15 -3}{5-3} = \frac{12}{2} = 6$
 **Equation of a line** $y -y_1 = m(x-x_1)$<br>
 **Piece-wise functions**<br>
 
-![piece-wise-functions](piece-wise.png)
+<img src="../Images/piece-wise.png" width="420">
+
 **Popular graphs**<br>
 $f(x) = 3$ <br>
-![constant-graph](constant.gif)<br>
+<img src="../Images/constant.gif" width="420"><br>
+
 $f(x) = x$<br>
-![f(x)=x](x.png)<br>
-$f(x) = \sqrt[3]{x}$
-![f(x)=root(3)](rootx.png)<br>
-$f(x) = \abs{x}$
-![abs-value-x](absolutevalue.jpg)<br>
+<img src="../Images/x.png" width="420"><br>
 
-<!-- Simple vertical-line test diagram -->
-<svg width="220" height="220" viewBox="-11 -11 22 22">
-  <!-- Axes -->
-  <line x1="-10" y1="0"  x2="10" y2="0"  stroke="#888" stroke-width="0.2"/>
-  <line x1="0"  y1="-10" x2="0" y2="10" stroke="#888" stroke-width="0.2"/>
+$f(x) = \sqrt[3]{x}$<br>
+<img src="../Images/rootx.png" width="420"><br>
 
-  <!-- Example curve (half of a sideways parabola) -->
-  <path d="M -9 9 Q -4 0 1 9" fill="none" stroke="#0645AD" stroke-width="0.4"/>
+$f(x) = |x|$<br>
+<img src="../Images/absolutevalue.jpg" width="420"><br>
 
-  <!-- Vertical test line  -->
-  <line x1="-3" y1="-10" x2="-3" y2="10" stroke="crimson" stroke-width="0.4"/>
+## Transformations<br>
+vertical: $f(x) + k$ - shift up<br>
+$f(x) -k$ - shift down<br>
 
-  <!-- Optional annotation -->
-  <text x="-3" y="-10.5" font-size="0.8" text-anchor="middle" fill="crimson">x = −3</text>
-</svg>
+horizontal: $f(x+h)$ shift left
+$f(x-h)$ shift rifht
 
-## Domain → Codomain (Vertical-Line Test)
+Odd key points<br>
+$(1, 1)$
+$(0, 0)$
+$(-1, -1)$
 
-```mermaid
-graph TD
-  x1[(−3)] --> y1[(5)]
-  x2[(−3)] --> y2[(−5)]
+Even key points<br>
+$(1, 1)$
+$(0, 0)$
+$(-1, 1)$
+
+Vertical stretch/compression<br>
+$y = af(x)$
+$a>1$ stretch
+$a<1$ compress
+
+Can change horizontal into vertical
+Reflection:
+$y = -f(x)$ reflect x-axis
+$y = f(-x)$ reflect y-axis
+
+## Solving Quadratics
+
+Quadratic
+$f(x) = ax^{2} +bx +c$
+Solutions:<br>
+<img src="../Images/Quadratic Solutions.png" width="420"><br>
+
+>**Square Root Method**
+Get $x^2$ by itself - no other x's in the equation
+
+1. $f(x) = x^{2} -18$<br>
+   $x^{2} = 18$<br>
+   $x = $
+
