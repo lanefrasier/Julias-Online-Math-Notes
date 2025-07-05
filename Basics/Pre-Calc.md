@@ -75,7 +75,6 @@ $f(5) = 25-10 = 15$<br>
 Average rate of change $ \frac{15 -3}{5-3} = \frac{12}{2} = 6$
 **Equation of a line** $y -y_1 = m(x-x_1)$<br>
 **Piece-wise functions**<br>
-
 <img src="../Images/piece-wise.png" width="420">
 
 **Popular graphs**<br>
@@ -90,6 +89,9 @@ $f(x) = \sqrt[3]{x}$<br>
 
 $f(x) = |x|$<br>
 <img src="../Images/absolutevalue.jpg" width="420"><br>
+
+$f(x) = \frac{1}{x}$<br>
+<img src="../Images/1overx.png" width="420"><br>
 
 ## Transformations<br>
 vertical: $f(x) + k$ - shift up<br>
@@ -130,5 +132,36 @@ Get $x^2$ by itself - no other x's in the equation
 
 1. $f(x) = x^{2} -18$<br>
    $x^{2} = 18$<br>
-   $x = $
+   $x = \pm\sqrt{18} = \pm\sqrt{9 \cdot 2} = \pm 3 \sqrt{2}$<br>
+2. $h(x) = (2x +3)^{2} - 32$ <br>
+   $(2x+3)^{2} = 32$<br>
+   $(2x+3) = \pm\sqrt{32} = \pm\sqrt{2 \cdot 16} = \pm\sqrt{2 \cdot 4 \cdot 4} = \pm 4 \sqrt{2}$<br>
+   $2x = -3 \pm 4 \sqrt{2}$<br>
+   $x = \frac{-3 \pm 4 \sqrt{2}}{2}$<br>
+3. $f(x) = (3x -2)^{2} + 75$<br>
+   $(3x-2)^{2} = -75$<br>
+   $3x -2 = \pm\sqrt{-75}$ --> No real solution - graph is not touching the x-axis<br>
+   $3x -2 = \pm\sqrt{ -1 \cdot 25 \cdot 3} = 5i\sqrt{3}$
+   $x = \frac{2 \pm 5i \sqrt{3}}{3}$ --> Complex conjugate in the complex form of $a +bi$<br>
+
+>**Factoring by Diamond Method**
+
+Steps:<br>
+<img src="../Images/diamond_method.svg" width="320"><br>
+
+1. Fill out the diamond.
+   $b$ is the coefficient of $x$
+   $a \cdot c$ is the product of the leading and constant coefficients
+   $m$ such that $m + n = b$
+   $n$ such that $m \cdot n = a \cdot c$
+2. Solution is $ax^{2} + bx +c = ax^{2} + mx + nx + c$
+3. Factor by grouping
+   $(ax^{2} + mx) + (nx+c)$
+   Factor out GCF
+   $x(ax +m) + 1(nx+c)$
+   If successful, the parenthese match
+   $(ax +m)(x+n) = 0$
+
+Examples:
+1. $f(x) = x^{2} + 7x +6$
 
