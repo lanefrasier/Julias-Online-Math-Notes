@@ -1,6 +1,6 @@
-# High Performance Computing / Quantum Computing Program Prep
+# MSc Mathematics Program Prep
 
-Welcome to my personal learning repository. This project documents my self-guided preparation for applying to a Master’s program in **High Performance Computing** and **Quantum Computing**. It includes handwritten note conversions, markdown study guides, key derivations, visual explanations, and a final showcase project.
+Welcome to my personal learning repository. This project documents my self-guided preparation for applying to a Master’s program in **Mathematics**. It includes handwritten note conversions, markdown study guides, key derivations, visual explanations, and a final showcase project.
 
 I created this repository to:
 - Deepen my understanding of foundational concepts
@@ -19,7 +19,7 @@ I created this repository to:
 
 I’ve always had a restless curiosity about **how** things work and, more importantly, **why** they work. Digging into the deeper questions gives me clarity and a solid foundation for real-world applications, which is why I majored in pure mathematics for my undergraduate degree. 
 
-Mathematics offers a universal lens. From the principle axioms, entire worlds of math can be extrapolated. As innovation and technology accelerate, I’m eager to help elevate that foundation into more advanced areas. **Quantum computing captivates me precisely because it once looked impossible.** That seeming impossibility fuels my drive to explore, understand, and ultimately contribute meaningful advances to the field.
+Mathematics offers a universal lens. From the principle axioms, entire worlds of math can be extrapolated. As innovation and technology accelerate, I’m eager to help elevate that foundation into more advanced areas. As I prepare for a mathematics degree at the University of Vienna, I’m exploring math-intensive specialisations with strong technological applications—ultimately aiming to channel this foundation into the emerging field of **quantum cybersecurity**. **Quantum systems captivate me precisely because it once looked impossible.** That seeming impossibility fuels my drive to explore, understand, and ultimately contribute meaningful advances to the field.
 
 ---
 

@@ -52,8 +52,22 @@ $D:\{\, t \mid t\in\mathbb{R}, t \neq -4, t \neq 0, t \neq 4\,\}$<br>
 $(-\infty, -4) \cup (-4, 0) \cup (0, 4) \cup (4, \infty)$
 
 > **Example 3:** Vertical line test
+ 
+<svg xmlns="http://www.w3.org/2000/svg" style="max-width:100%;max-height:162px;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="162px" viewBox="-0.5 -0.5 162 162"><defs><style type="text/css">@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter:wght@400;500);
+</style></defs><g><g><path d="M 1 81 L 161 81" fill="none" stroke="#000000" stroke-opacity="0.4" stroke-width="2" stroke-miterlimit="10" transform="rotate(-90,81,81)" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 1 86 L 161 86" fill="none" stroke="#000000" stroke-opacity="0.3" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 1 146 Q 91 136 106 111 Q 121 86 91 86 Q 61 86 66 61 Q 71 36 152.81 26.91" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/><path d="M 158.78 26.25 L 151.27 31.11 L 152.81 26.91 L 150.38 23.15 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/></g><g><path d="M 21 81 L 181 81" fill="none" stroke="#b85450" stroke-width="2" stroke-miterlimit="10" transform="rotate(-90,101,81)" pointer-events="all" style="stroke: light-dark(rgb(184, 84, 80), rgb(215, 129, 126));"/></g></g></svg>
 
-![Vertical-line-test](Recap.jpg)
+<!-- Vertical-line test: parabola & test line -->
+
+<svg width="300" height="180" viewBox="0 0 300 180"
+     xmlns="http://www.w3.org/2000/svg" stroke-width="2" fill="none">
+
+  <!-- parabola y = x² shifted/scaled to fit -->
+  <path d="M 0 150 Q 150 0 300 150" stroke="#0645AD"/>
+  
+  <!-- vertical test line -->
+  <line x1="200" y1="10" x2="200" y2="170" stroke="crimson"/>
+</svg>
+
 
 **Even function** symmetric about the y-axis <br>
 $f(x) = f(-x)$

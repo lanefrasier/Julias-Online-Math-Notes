@@ -1,0 +1,11 @@
+{
+  // When you Ctrl+V an image, save it under /images
+  "markdown-all-in-one.imagePaste.relativePath": "images",
+
+  // Draw.io files auto-export an SVG on save
+  "drawioExport.format": "svg",
+  "drawioExport.theme": "sketchy"          // optional “hand-drawn” look
+
+  /* You can add more repo-specific settings later, e.g.
+         "editor.tabSize": 2 */
+}
