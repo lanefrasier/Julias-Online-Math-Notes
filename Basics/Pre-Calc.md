@@ -62,8 +62,8 @@ $-f(x) = f(-x)$
 
 <img src="../images/even-odd-fn.png" width="420" alt="Even/Odd fn"><br>
 
-**Increasing** $x_1 < x_2$ for $f(x_1) < f(x_2)$ <br>
-**Decreasing** $ x_1 < x_2$ for $f(x_1) > f(x_2)$<br>
+**Increasing** $x_1 < x_2$ for $f(x_1) < f(x_2)$<br>
+**Decreasing** $x_1 < x_2$ for $f(x_1) > f(x_2)$<br>
 **Local/Relative Max** On an open interval $f(x) \le f(c)$ where $c$ is a local max. Function changes from increasing to decreasing. Cannot ocur at an endpoint.<br>
 **Local/Relative Min** $f(x) \ge f(c)$ where $c$ is a local min. Function changes from decreasing to increasing. Cannot occur at an endpoint. <br>
 **Absolute Max** Highest output of the function. Can occur at endpoints<br>
@@ -72,7 +72,7 @@ $-f(x) = f(-x)$
 > **Example** Find Average rate of change of $f(x) = x^2 - 2x$ from $x = 3$ to $x=5$<br>
 $f(3) = 9-6 = 3$<br>
 $f(5) = 25-10 = 15$<br>
-Average rate of change $ \frac{15 -3}{5-3} = \frac{12}{2} = 6$
+Average rate of change $\frac{15 -3}{5-3} = \frac{12}{2} = 6$<br>
 **Equation of a line** $y -y_1 = m(x-x_1)$<br>
 **Piece-wise functions**<br>
 <img src="../Images/piece-wise.png" width="420">
@@ -127,7 +127,7 @@ $f(x) = ax^{2} +bx +c$
 Solutions:<br>
 <img src="../Images/Quadratic Solutions.png" width="420"><br>
 
->**Square Root Method**
+### Square Root Method
 Get $x^2$ by itself - no other x's in the equation
 
 1. $f(x) = x^{2} -18$<br>
@@ -144,7 +144,7 @@ Get $x^2$ by itself - no other x's in the equation
    $3x -2 = \pm\sqrt{ -1 \cdot 25 \cdot 3} = 5i\sqrt{3}$
    $x = \frac{2 \pm 5i \sqrt{3}}{3}$ --> Complex conjugate in the complex form of $a +bi$<br>
 
->**Factoring by Diamond Method**
+### Factoring by Diamond Method
 
 Steps:<br>
 <img src="../Images/diamond_method.svg" width="320"><br>
@@ -155,13 +155,58 @@ Steps:<br>
    $m$ such that $m + n = b$
    $n$ such that $m \cdot n = a \cdot c$
 2. Solution is $ax^{2} + bx +c = ax^{2} + mx + nx + c$
-3. Factor by grouping
-   $(ax^{2} + mx) + (nx+c)$
-   Factor out GCF
-   $x(ax +m) + 1(nx+c)$
-   If successful, the parenthese match
+3. Factor by grouping<br>
+   $(ax^{2} + mx) + (nx+c)$<br>
+   Factor out GCF<br>
+   $x(ax +m) + 1(nx+c)$<br>
+   If successful, the parenthese match<br>
    $(ax +m)(x+n) = 0$
 
 Examples:
-1. $f(x) = x^{2} + 7x +6$
+1. $f(x) = x^{2} + 7x +6$<br>
+   $x^{2} + 7x + 6 = 0$<br>
+   $b = 7, a \cdot c = 6, m = 1, n = 6$<br>
+   $x(x+1)+6(x+1) = 0$<br>
+   $(x+1)(x+6) = 0$<br>
+   $x=-1, x= -6$<br>
+2. $h(x) = -12x +9 +4x^{2}$<br>
+   $4x^{2} -12x +9 = 0$<br>
+   $b = -12, a \cdot c = 36, m = -6, n = -6$<br>
+   $(2x -3)^{2} = 0$
+   $x = \frac{3}{2}$
 
+### Completing the Square
+
+1. $f(x)= x^{2} +4x -3$
+   $(x^{2} +4x) - 3 = 0$
+   $(x +2)^{2} -4 -3 =0$
+   $(x+2)^{2} - 7 = 0$
+2. $h(x) = 5x^{2} -10x +2$
+   $x^{2} - 2x + \frac{2}{5}$
+   $(x-1)^{2} - \frac{3}{5}=0$
+
+### Quadratic Formula
+$x = \frac{-b \pm\sqrt{b^{2} - 4ac}}{2a}$<br>
+if discriminant > 0 -> 2 solutions
+if discriminant = 0 -> 1 solution
+if discriminant < 0 -> no real solution
+
+### Graphs of quadratics
+$f(x) = ax^{2} + bx +c$<br>
+$a>0$ Upward parabola<br>
+$a<0$ Downward parabola<br>
+y-intercept = (0,c)<br>
+x-intercept: $ax^{2} + bx +c = 0$<br>
+Vertex = $(\frac{-b}{2a}, f(x))$<br>
+Vertex form: $f(x) = a(x + h)^{2} + k$
+
+## Polynomial Functions
+
+$f(x) = a_{n}x^{n} + a_{n-1}x^{n-1} + ... + a_{2}x^{2} + a_{1}x + a_0$<br>
+leading term: $a_{n}x^{n}$, constant term: $a_0$<br>
+Degree: $n$, largest exponent in polynomial
+Domain is all $\mathbb{R}$
+
+### Power Functions
+Definition: Polynomial with only one term<br>
+<img src="../Images/powerfns.jpg" width="420">
