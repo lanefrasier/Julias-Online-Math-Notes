@@ -216,3 +216,4 @@ Domain is all $\mathbb{R}$
 ### Power Functions
 Definition: Polynomial with only one term<br>
 <img src="Images/powerfns.jpg" width="420">
+
