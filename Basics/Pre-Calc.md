@@ -1,4 +1,17 @@
-## Pre-Calc
+# Pre-Calc
+
+## Contents
+
+[Important Math Notations/Definitions](#important-math-notationsdefinitions)<br>
+[Functions](#functions)<br>
+[Finding Domain](#finding-domain)<br>
+[Properties of a function](#properties-of-a-function)<br>
+[Average rate of change](#average-rate-of-change)<br>
+[Popular graphs](#popular-graphs)<br>
+[Transformations](#transformations)<br>
+[Solving Quadratics](#solving-quadratics)<br>
+[Polynomial Functions](#polynomial-functions)<br>
+[Power Functions](#power-functions)<br>
 
 ### Important Math Notations/Definitions
 
