@@ -19,7 +19,9 @@
 **Exclusive set** ( ) - always used with $\infty$<br>
 **Domain:** Set of inputs of a function that give a **real** number output, square roots need to be positive. Always find domain of function before operations.<br>
 **Range:** Set of outputs<br>
-**Codomain:** Domain of the output
+**Codomain:** Domain of the output<br>
+**Intersection:** $a \cap b$ has the elements which are common to both set a and set b.<br>
+**Union:** $a \cup b$ contains all elements that are in at least one of the sets with duplicates removed. <br>
 
 ### Functions
 A function is a relationship that maps **one input** ($x$ values) to **one output** ($y$ or $f(x)$ values). An input **never** gives more than 1 output.
@@ -80,13 +82,13 @@ Domain = $\set{x \mid x \le \frac{5}{4}}$
 **Equation of a line** $y -y_1 = m(x-x_1)$<br>
 **Increasing** $x_1 < x_2$ for $f(x_1) < f(x_2)$<br>
 **Decreasing** $x_1 < x_2$ for $f(x_1) > f(x_2)$<br>
-<img src="Images/Increasedecrease.png" width="420" alt="Even/Odd fn"><br>
+<img src="Images/Increasedecrease.png" width="420"><br>
 
 **Local/Relative Max** On an open interval $f(x) \le f(c)$ where $c$ is a local max. Function changes from increasing to decreasing. Cannot ocur at an endpoint.<br>
 **Local/Relative Min** $f(x) \ge f(c)$ where $c$ is a local min. Function changes from decreasing to increasing. Cannot occur at an endpoint. <br>
 **Absolute Max** Highest output of the function. Can occur at endpoints.<br>
 **Absolute Min** Lowest output of the function. Can occur at endpoints.<br>
-<img src="Images/abslocalmaxmin.png" width="420" alt="Even/Odd fn"><br>
+<img src="Images/abslocalmaxmin.png" width="420"><br>
 
 ### Average rate of change 
 
