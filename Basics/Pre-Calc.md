@@ -144,7 +144,7 @@ $(1, 1)$
 $(0, 0)$
 $(-1, 1)$
 
-### Solving Quadratics
+### Quadratics
 
 $f(x) = ax^{2} +bx +c$ --> $x = \frac{-b \pm\sqrt{b^{2} - 4ac}}{2a}$<br>
 if discriminant > 0 -> 2 solutions
