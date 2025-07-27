@@ -8,41 +8,52 @@
 
 >**Force**
 
-Definition: A push or pull on an object. Force is a vector quantity with both magnitude and direction.<br>
+A push or pull on an object. Force is a vector quantity with both magnitude and direction.<br>
 $F = ma$
 
 >**Net Force**
 
-Definition: Sum of all forces on an object<br>
+Sum of all forces on an object<br>
 $\sum{\vec{F}}$<br>
 
 >**Speed**
 
-Definition: The rate at which an object covers distance, or the distance traveled per unit of time.<br>
+The rate at which an object covers distance, or the distance traveled per unit of time.<br>
 $s = \frac{distance}{time}$
 
 >**Position**
 
-Definition:The location of an object in space at a given time, relative to a reference point (or origin).<br>
+The location of an object in space at a given time, relative to a reference point (or origin).<br>
 $r(t)$
 
 >**Velocity**
 
-Definition: A vector quantity that describes both the speed and direction of an object's motion<br>
+A vector quantity that describes both the speed and direction of an object's motion<br>
 $v(t) = \frac{dr}{dt}$
 $\vec{v} = \frac{\Delta \vec{x}}{\Delta t}$<br>
 
 >**Acceleration**
 
-Definition: The rate at which an object's velocity changes over time<br>
+The rate at which an object's velocity changes over time<br>
 $a(t) = \frac{dv}{dt} = \frac{d^{2}r}{dt^2}$<br>
 $\vec{a} = \frac{\Delta \vec{v}}{\Delta t} = \frac{v_{f} - v_{i}}{\Delta t}$
 
 ### Fields
 
->**Scalar Fields**
+An empty space around an object where a non-contact force (gravity, electric, magnetic) could exist<br>
 
-Definition: An empty space around an object where a non-contact force (gravity, electric, magnetic) could exist.
+>**Scalar Fields**
+ 
+A single numerical value (a scalar) at each point in space. Examples include temperature, density, and pressure <br>
+
+>**Vector Fields**
+
+These fields have both a magnitude (strength) and a direction at each point in space. Examples include velocity, force, and electric field<br>
+
+>**Tensor Fields**
+
+The most general type, encompassing scalar and vector fields as special cases. They describe quantities that require multiple components to be fully represented, often involving relationships between different directions. Examples include stress-energy tensor in general relativity and inertia tensor. <br>
+
 1. Gravitational - around objects with mass
 2. Electric - objects with charge
 3. Magnetic - objects with magnetic forces
