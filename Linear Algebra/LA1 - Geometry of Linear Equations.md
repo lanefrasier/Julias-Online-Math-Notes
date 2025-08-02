@@ -1,5 +1,5 @@
 # Geometry of Linear Equations
-[PDF](/Geometry of Linear Equations.pdf)
+[PDF](/PDFs/Geometry%of%Linear%Equations.pdf)
 
 ## Contents
 
