@@ -12,7 +12,7 @@
 [Solving Quadratics](#solving-quadratics)<br>
 [Polynomial Functions](#polynomial-functions)<br>
 [Power Functions](#power-functions)<br>
-[Trig Cheat Sheet](Images/Trig%Cheat%Sheet.pdf)<br>
+[Trig Cheat Sheet](Basics\Images\Trig%Cheat%Sheet.pdf)<br>
 
 ### Important Math Notations/Definitions
 
