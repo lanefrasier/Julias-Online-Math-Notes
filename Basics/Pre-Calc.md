@@ -12,6 +12,7 @@
 [Solving Quadratics](#solving-quadratics)<br>
 [Polynomial Functions](#polynomial-functions)<br>
 [Power Functions](#power-functions)<br>
+[Trig Cheat Sheet](/Images/Trig Cheat Sheet.pdf)<br>
 
 ### Important Math Notations/Definitions
 
@@ -19,7 +20,7 @@
 **Exclusive set** ( ) - always used with $\infty$<br>
 **Domain:** Set of inputs of a function that give a **real** number output, square roots need to be positive. Always find domain of function before operations.<br>
 **Range:** Set of outputs<br>
-**Codomain:** Domain of the output<br>
+**Co-domain:** Domain of the output<br>
 **Intersection:** $a \cap b$ has the elements which are common to both set a and set b.<br>
 **Union:** $a \cup b$ contains all elements that are in at least one of the sets with duplicates removed. <br>
 
