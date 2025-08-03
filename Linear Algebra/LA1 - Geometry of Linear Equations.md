@@ -25,7 +25,7 @@ Computationally:<br>
 <img src="Images/AddingMatrix.png" width="420"><br>
 
 Scalar multiples have the same direction and are parallel lines<br>
-$\vec{a} = \begin{bmatrix} 2 \\ 1 \end{bmatrix} \qquad || \qquad 3\vec{a} = \begin{bmatrix} 6 \\ 3 \end{bmatrix} = 3 \begin{bmatrix} 2 \\ 1 \end{bmatrix} \qquad || \qquad -1\vec{a} = \begin{bmatrix} -2 \\ -1 \end{bmatrix}$
+$\vec{a} = \begin{bmatrix} 2 \\ 1 \end{bmatrix} \qquad \parallel \qquad 3\vec{a} = \begin{bmatrix} 6 \\ 3 \end{bmatrix} = 3 \begin{bmatrix} 2 \\ 1 \end{bmatrix} \qquad \parallel \qquad -1\vec{a} = \begin{bmatrix} -2 \\ -1 \end{bmatrix}$
 
 Magnitude: magnitude of original $\vec{v} \cdot |{scalar}| = ||c\cdot \vec{v}|| = |c| \cdot ||\vec{v}||$<br>
 Direction: opposite directions are 180$^{\circ}$
