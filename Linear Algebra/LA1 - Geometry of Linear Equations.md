@@ -1,5 +1,5 @@
 # Geometry of Linear Equations
-[PDF](Linear%Algebra\PDFs\Geometry%of%Linear%Equations.pdf)
+[Geometry of Linear Equations (PDF)](PDFs/Geometry%20of%20Linear%20Equations.pdf)
 
 ## Contents
 
@@ -46,3 +46,63 @@ Assume $c_1 \neq 0$<br>
 $v_{1} + \dfrac{c_2}{c_1}v_2 + ... + \dfrac{c_n}{c_1}v_n = 0$<br>
 $v_1 = -\dfrac{c_2}{c_1}v_2 - ... - \dfrac{c_n}{c_1}v_n$<br>
 Since $v_1$ can be written as a combination of the other vectors which are non-zero, it must be linearly dependent.
+
+### Subspace
+
+V is a subspace of $\mathbb{R}$ if:
+1. Closure under scalar multiplication<br>
+If $\vec{x} \in V$ then $c\vec{x} \in V$ 
+2. Closure under addition<br>
+If $\vec{a} \in V, \vec{b} \in V$ then $\vec{a} + \vec{b} \in V$
+3. Must contain the zero vector
+Implied when $c=0$
+
+If $V = Span \{\vec{V}_{1}, \vec{V}_{2}, ..., \vec{V}_{n}\}$ is linearly independent and V is a subspace, then S is a basis for V<br>
+
+### Basis
+
+Minimum set of vectors that span the subspace. Must be able to construct any vector 
+
+### Dot Product
+
+$\vec{a} \cdot \vec{b} =$ scalar<br>
+$\begin{bmatrix} a_1 \\ a_2 \\ . \\ . \\ . \\ a_n \end{bmatrix} \cdot \begin{bmatrix} b_1 \\ b_2 \\ . \\ . \\ . \\ b_n \end{bmatrix} = a_1 b_1 + a_2 b_2 + ... + a_n b_n$<br>
+
+### Length
+
+$||\vec{a}|| = \sqrt{a_{1}^{2} + a_{2}^{2} + ... + a_{n}^2}$
+
+### Cauchy-Schwartz
+
+Let $\vec{x}, \vec{y} \in \mathbb{R}^{n}$<br>
+$|\vec{x} \cdot \vec{y}| \leq ||\vec{x}||||\vec{y}||$<br>
+$|\vec{x} \cdot \vec{y}| = ||\vec{x}||||\vec{y}||$ only when $\vec{x} = \vec{y}$<br>
+
+**Proof**
+
+Prove $|\vec{x} \cdot \vec{y}| \leq ||\vec{x}||||\vec{y}||$<br>
+<br>
+$p(t) = || t\vec{y} - \vec{x}||^2 \geq 0$ any magnitude must be $\geq 0$<br>
+$= (t\vec{y} - \vec{x}) \cdot (t\vec{y} - \vec{x})$ side note: $||\vec{v}||^2 = \vec{v} \cdot \vec{v}$<br>
+Due to the associative property of multiplication:<br>
+$t\vec{y} \cdot t\vec{y} - \vec{x} \cdot t\vec{y} - t\vec{y} \cdot \vec{x} + (-\vec{x}) \cdot (-\vec{x})$<br>
+$=(\vec{y} \cdot \vec{y})t^2 - 2(\vec{x} \cdot \vec{y})t + (\vec{x} \cdot \vec{x}) \geq 0$<br>
+Let $(\vec{y} \cdot \vec{y}) = a$, $2(\vec{x} \cdot \vec{y}) = b$ and $(\vec{x} \cdot \vec{x}) = c$ <br>
+$= at^2 -bt +c \geq 0$ -> pythagorean<br>
+<br>
+$p\left(\dfrac{b}{2a}\right) = \dfrac{ab^2}{4a^2} - \dfrac{b \cdot b}{2a} + c \geq 0$<br>
+<br>
+$= \dfrac{b^2}{4a} - \dfrac{b^2}{2a} + c \geq 0$ <br>
+<br>
+$= \dfrac{b^2 -2b^2}{4a} + c \geq 0$<br>
+Sub back in -> $4ac \geq b^2$<br>
+$4(\vec{y} \cdot \vec{y}) = 4||\vec{y}||^2 ||\vec{x}||^2 \geq 4(\vec{x} \cdot \vec{y})^2$<br>
+Taking the square root of both sides gives the absolute value<br>
+$||\vec{y}||||\vec{x}|| \geq |\vec{x} \cdot \vec{y}| \qquad \square$
+
+Prove $|\vec{x} \cdot \vec{y}| = ||\vec{x}||||\vec{y}||$ only when $\vec{x} = \vec{y}$<br>
+<br>
+$|\vec{x} \cdot \vec{y}| = |c\vec{y} \cdot \vec{y}| = |c||\vec{y} \cdot \vec{y}| = |c|||\vec{y}||^2$<br>
+$=|c|||\vec{y}||||\vec{y}|| = ||c\vec{y}||||\vec{y}|| = ||\vec{x}||||\vec{y}|| \qquad \square$<br>
+
+### Triangle Inequality
