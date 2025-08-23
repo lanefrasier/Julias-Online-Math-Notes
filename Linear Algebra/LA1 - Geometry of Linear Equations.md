@@ -109,4 +109,9 @@ $=|c|||\vec{y}||||\vec{y}|| = ||c\vec{y}||||\vec{y}|| = ||\vec{x}||||\vec{y}|| \
 ### Triangle Inequality
 
 $|| \vec{x} + \vec{y} ||^2 \leq || \vec{x}^2 || + 2 || \vec{x} || || \vec{y} || + || \vec{y} ||^2$<br>
-$\leq (|| \vec{x} || ||\vec{y}||^2)
+$\leq (|| \vec{x} || ||\vec{y}||^2)$
+-> $||\vec{x} + \vec{y}|| \leq ||\vec{x}|| + ||\vec{y}||$
+
+### Angle between vectors
+
+$\vec{a}, \vec{b}, \in \mathbb{R}^n$, non-zero
