@@ -13,7 +13,8 @@
 vector - magnitude and direction
 Ex. velocity
 $\vec{v} = (5, 0) =$
-$\begin{bmatrix} 5 \\ 0 \end{bmatrix} = \begin{bmatrix} x \\ y \end{bmatrix}$
+$\begin{bmatrix} 5 \\ 0 \end{bmatrix}$
+$= \begin{bmatrix} x \\ y \end{bmatrix}$
 
 $\mathbb{R}^2$ = real coordinate space (2D) All possible real-valued 2-tuple
 
@@ -106,3 +107,6 @@ $|\vec{x} \cdot \vec{y}| = |c\vec{y} \cdot \vec{y}| = |c||\vec{y} \cdot \vec{y}|
 $=|c|||\vec{y}||||\vec{y}|| = ||c\vec{y}||||\vec{y}|| = ||\vec{x}||||\vec{y}|| \qquad \square$<br>
 
 ### Triangle Inequality
+
+$|| \vec{x} + \vec{y} ||^2 \leq || \vec{x}^2 || + 2 || \vec{x} || || \vec{y} || + || \vec{y} ||^2$<br>
+$\leq (|| \vec{x} || ||\vec{y}||^2)
