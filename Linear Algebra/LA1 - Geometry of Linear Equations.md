@@ -1,9 +1,10 @@
+
 $\left[\begin{smallmatrix} 1 \\\\ 2 \end{smallmatrix}\right]$
 
 Block:
 
 $$
-\begin{bmatrix} 1 \ 2 \end{bmatrix}
+\begin{bmatrix} 1 \\ 2 \end{bmatrix}
 $$
 
 
@@ -134,4 +135,4 @@ Using the Law of Cosines:<br>
 <img src="Images/Law-of-Cosines.webp" width="420"><br>
 With $\vec{a}, \vec{b}, \vec{c} \in \mathbb{R}^n$ and non-zero<br>
 and $\vec{c} = \vec{a} - \vec{b}$<br>
-$||\vec{a} - \vec{b} || ^2 = ||\vec{a} \cdot \vec{a} - 2\vec{a} \cdot \vec{b} + \vec{b} \cdot \vec{b}$
+$||\vec{a} - \vec{b} || ^2 = ||\vec{a} \cdot \vec{a} - 2\vec{a} \cdot \vec{b} + \vec{b} \cdot \vec{b} = ||\vec{a}$
