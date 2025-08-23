@@ -1,3 +1,15 @@
+Inline: $\begin{bmatrix} 1 \\ 2 \end{bmatrix}$
+
+Block:
+
+$$
+\begin{bmatrix} 1 \\ 2 \end{bmatrix}
+$$
+
+
+
+
+
 # Geometry of Linear Equations
 [Geometry of Linear Equations (PDF)](PDFs/Geometry%20of%20Linear%20Equations.pdf)
 
@@ -13,8 +25,11 @@
 vector - magnitude and direction
 Ex. velocity
 $\vec{v} = (5, 0) =$
-$\begin{bmatrix} 5 \\ 0 \end{bmatrix}$
-$= \begin{bmatrix} x \\ y \end{bmatrix}$
+
+$$
+\begin{bmatrix} 5 \\ 0 \end{bmatrix}
+= \begin{bmatrix} x \\ y \end{bmatrix}
+$$
 
 $\mathbb{R}^2$ = real coordinate space (2D) All possible real-valued 2-tuple
 
@@ -114,4 +129,5 @@ $\leq (|| \vec{x} || ||\vec{y}||^2)$
 
 ### Angle between vectors
 
-$\vec{a}, \vec{b}, \in \mathbb{R}^n$, non-zero
+Using the Law of Cosines:<br>
+<img src="Images/Law-of-Cosines.webp" width="420"><br>
