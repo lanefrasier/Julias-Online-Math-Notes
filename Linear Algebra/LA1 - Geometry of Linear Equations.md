@@ -3,7 +3,7 @@ Inline: $\begin{bmatrix} 1 \\ 2 \end{bmatrix}$
 Block:
 
 $$
-\begin{bmatrix} 1 \\ 2 \end{bmatrix}
+\begin{bmatrix} 1 \ 2 \end{bmatrix}
 $$
 
 
