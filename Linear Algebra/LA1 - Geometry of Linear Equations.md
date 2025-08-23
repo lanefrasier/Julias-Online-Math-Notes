@@ -1,4 +1,4 @@
-$\left[\begin{smallmatrix} 1 \\ 2 \end{smallmatrix}\right]$
+$\left[\begin{smallmatrix} 1 \\\\ 2 \end{smallmatrix}\right]$
 
 Block:
 
