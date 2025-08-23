@@ -132,4 +132,40 @@ Using the Law of Cosines:<br>
 With $\vec{a}, \vec{b}, \vec{c} \in \mathbb{R}^n$ and non-zero<br>
 and $\vec{c} = \vec{a} - \vec{b}$<br>
 $||\vec{a} - \vec{b} || ^2 = ||\vec{a} \cdot \vec{a} - 2\vec{a} \cdot \vec{b} + \vec{b} \cdot \vec{b} = ||\vec{a}||^2 + ||\vec{b}||^2 - 2\vec{a}\vec{b}$<br>
-$||\vec{a}||^2 + ||\vec{b}||^2 -2\vec{a}\vec{b} = ||\vec{a}||^2 + ||\vec{b}||^2 - 2||\vec{a}||||\vec{b}||cos \theta$
+$||\vec{a}||^2 + ||\vec{b}||^2 -2\vec{a}\vec{b} = ||\vec{a}||^2 + ||\vec{b}||^2 - 2||\vec{a}||||\vec{b}||cos \theta$<br>
+$(\vec{a} \cdot \vec{b}) = ||\vec{a}||||\vec{b}||cos \theta$<br>
+if $\vec{a} = c\vec{b}$<br> 
+$c> 0 -> \theta = 0\degree$<br>
+$c<0 -> \theta = 180\degree$
+
+### Perpendicular or Orthogonal
+
+$\vec{a}. \vec{b}$ when $\theta = 90\degree = \dfrac{\pi}{2}$<br>
+$\vec{a} \cdot \vec{b} = 0$ where $\vec{a}, \vec{b} \neq 0$<br>
+Orthogonal -> may be 0<br>
+
+### Equation of a Plane in $R^3$
+
+<img src="Images/PlaneNormal.gif" width="420"><br>
+$Ax + By +Cz = D$<br>
+$\vec{n} = $ normal, perpendicular to all points on the plane<br>
+$\vec{n} \cdot \vec{a} = 0$ <br>
+$$
+\vec{x}_0 = \begin{bmatrix} x_0 \\\\ y_0 \\\\ z_0 \end{bmatrix}
+$$
+$$
+\vec{x} = \begin{bmatrix} x \\\\ y \\\\ z \end{bmatrix}
+$$
+$\vec{x} - \vec{x_0}$ must be $\perp$ to $\vec{n}$
+$$
+\vec{n} = \begin{bmatrix} n_1 \\\\ n_2 \\\\ n_3 \end{bmatrix}
+$$
+$\vec{n} \cdot (\vec{x} - \vec{x_0}) = 0 -> Ax +By +Cz = D$
+
+**Find equation of Plane**
+
+$$
+\vec{n} = \begin{bmatrix} 1 \\\\ 3 \\\\ -2 \end{bmatrix},
+\vec{x_0} = \begin{bmatrix} 1 \\\\ 2 \\\\ 3 \end{bmatrix}
+$$
+Next, find any point on the plane<br>
