@@ -1,16 +1,3 @@
-
-$\left[\begin{smallmatrix} 1 \\\\ 2 \end{smallmatrix}\right]$
-
-Block:
-
-$$
-\begin{bmatrix} 1 \\\\ 2 \end{bmatrix}
-$$
-
-
-
-
-
 # Geometry of Linear Equations
 [Geometry of Linear Equations (PDF)](PDFs/Geometry%20of%20Linear%20Equations.pdf)
 
@@ -29,7 +16,7 @@ Ex. velocity
 
 $$
 \vec{v} = (5, 0) =
-\begin{bmatrix} 5 \\ 0 \end{bmatrix}
+\begin{bmatrix} 5 \\\\ 0 \end{bmatrix}
 = \begin{bmatrix} x \\\\ y \end{bmatrix}
 $$
 
@@ -43,14 +30,19 @@ Computationally:<br>
 <img src="Images/AddingMatrix.png" width="420"><br>
 
 Scalar multiples have the same direction and are parallel lines<br>
-$\vec{a} = \begin{bmatrix} 2 \\ 1 \end{bmatrix} \qquad \parallel \qquad 3\vec{a} = \begin{bmatrix} 6 \\ 3 \end{bmatrix} = 3 \begin{bmatrix} 2 \\ 1 \end{bmatrix} \qquad \parallel \qquad -1\vec{a} = \begin{bmatrix} -2 \\ -1 \end{bmatrix}$
+$$
+\vec{a} = \begin{bmatrix} 2 \\\\ 1 \end{bmatrix} \qquad \parallel \qquad 3\vec{a} = \begin{bmatrix} 6 \\\\ 3 \end{bmatrix} = 3 \begin{bmatrix} 2 \\\\ 1 \end{bmatrix} \qquad \parallel \qquad -1\vec{a} = \begin{bmatrix} -2 \\\\ -1 \end{bmatrix}
+$$
 
 Magnitude: magnitude of original $\vec{v} \cdot |{scalar}| = ||c\cdot \vec{v}|| = |c| \cdot ||\vec{v}||$<br>
 Direction: opposite directions are 180$^{\circ}$
 
 > Unit Vectors
 
-$\hat{i} = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix} \qquad \hat{j} = \begin{bmatrix} 0 \\ 1 \\ 0 \end{bmatrix} \qquad \hat{k} = \begin{bmatrix} 0 \\ 0 \\ 1\end{bmatrix}$<br>
+$$
+\hat{i} = \begin{bmatrix} 1 \\\\ 0 \\\\ 0 \end{bmatrix} \qquad \hat{j} = \begin{bmatrix} 0 \\\\ 1 \\\\ 0 \end{bmatrix} \qquad \hat{k} = \begin{bmatrix} 0 \\\\ 0 \\\\ 1\end{bmatrix}
+$$
+
 Unit $\vec{v}$ in any direction of $\vec{v}$ with magnitude of 1<br>
 $\dfrac{\vec{v}}{||\vec{v}||}$
 
@@ -83,8 +75,12 @@ Minimum set of vectors that span the subspace. Must be able to construct any vec
 
 ### Dot Product
 
-$\vec{a} \cdot \vec{b} =$ scalar<br>
-$\begin{bmatrix} a_1 \\ a_2 \\ . \\ . \\ . \\ a_n \end{bmatrix} \cdot \begin{bmatrix} b_1 \\ b_2 \\ . \\ . \\ . \\ b_n \end{bmatrix} = a_1 b_1 + a_2 b_2 + ... + a_n b_n$<br>
+$$
+\vec{a} \cdot \vec{b} = scalar
+$$<br>
+$$
+\begin{bmatrix} a_1 \\\\ a_2 \\\\ . \\\\ . \\\\ . \\\\ a_n \end{bmatrix} \cdot \begin{bmatrix} b_1 \\\\ b_2 \\\\ . \\\\ . \\\\ . \\\\ b_n \end{bmatrix} = a_1 b_1 + a_2 b_2 + ... + a_n b_n
+$$
 
 ### Length
 
@@ -135,4 +131,5 @@ Using the Law of Cosines:<br>
 <img src="Images/Law-of-Cosines.webp" width="420"><br>
 With $\vec{a}, \vec{b}, \vec{c} \in \mathbb{R}^n$ and non-zero<br>
 and $\vec{c} = \vec{a} - \vec{b}$<br>
-$||\vec{a} - \vec{b} || ^2 = ||\vec{a} \cdot \vec{a} - 2\vec{a} \cdot \vec{b} + \vec{b} \cdot \vec{b} = ||\vec{a}||^2 + ||\vec{b}||^2 - 2\vec{a}\vec{b}$
+$||\vec{a} - \vec{b} || ^2 = ||\vec{a} \cdot \vec{a} - 2\vec{a} \cdot \vec{b} + \vec{b} \cdot \vec{b} = ||\vec{a}||^2 + ||\vec{b}||^2 - 2\vec{a}\vec{b}$<br>
+$||\vec{a}||^2 + ||\vec{b}||^2 -2\vec{a}\vec{b} = ||\vec{a}||^2 + ||\vec{b}||^2 - 2||\vec{a}||||\vec{b}||cos \theta$
