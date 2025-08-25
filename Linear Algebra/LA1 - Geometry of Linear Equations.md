@@ -168,4 +168,71 @@ $$
 \vec{n} = \begin{bmatrix} 1 \\\\ 3 \\\\ -2 \end{bmatrix},
 \vec{x_0} = \begin{bmatrix} 1 \\\\ 2 \\\\ 3 \end{bmatrix}
 $$
-Next, find any point on the plane<br>
+Next, find any point on the plane which will be $\vec{x}$<br>
+$\vec{n} \cdot (\vec{x} - \vec{x_0}) = 0$
+$$
+\vec{n} \cdot \begin{bmatrix} x - 1 \\\\ y -2 \\\\ z -3 \end{bmatrix} = 0
+$$
+$(x-1) + 3(y-2) - 2(z-3) = 0$<br>
+$x-1 +3y - 6 - 2z +6 = 0$<br>
+$x+3y - 2z = 1$<br>
+
+### Cross Product
+
+**Definition** Finds a mutually orthogonal vector. Maximum when perpendicular, minimum when colinear<br>
+$|| \vec{a} X \vec{b} || = ||\vec{a}||||\vec{b}||sin\theta$<br>
+Area = $||\vec{a} X \vec{b}||$
+
+<img src="Images/crossproduct.svg" width="420"><br>
+
+### Dot Product
+
+**Definition** How much of the vector is going in the same direction. Maxes out when colinear, minimum when perpendicular
+
+### Finding shortest distance from a point to a plane
+
+Let $\vec{n}$ be the normal vector and $\vec{f}$ be a vector from the plane. Let D be the distance.<br>
+$\dfrac{\vec{n} \cdot \vec{f}}{|\vec{n|}} = d$<br>
+Or<br>
+$\dfrac{Ax_0 + By_{0} + Cz_0 - D}{\sqrt{A^2 + B^2 + C^2}}$<br>
+If the distance between the plane $Ax - 2y + z = d$<br>
+and the plane containing the lines $L_1 = \dfrac{x-1}{2} = \dfrac{y-2}{3} = \dfrac{z-3}{4}$ and $L_2 = \dfrac{x-2}{3} = \dfrac{y-3}{4} = \dfrac{z-4}{5}$<br>
+is $\sqrt{6}$, then what is $|d|$?<br>
+<br>
+Answer:<br>
+What we know
+1. $\vec{n} = A\hat{i} - 2\hat{j} + \hat{k}$
+2. $||\vec{n}|| = \sqrt{6}
+
+$\sqrt{A^2 - 4 + 1} = \sqrt{A^2 - 3}$<br>
+$=(A + \sqrt{3})(A-\sqrt{3})$<br>
+$\sqrt{6} = \sqrt{(A + \sqrt{3})(A-\sqrt{3})}$<br>
+$6 = A^2 +3$<br>
+$A = \sqrt{3}$<br>
+Find points on lines, only need 3 points for 2 vectors<br>
+$L_1 = 0 -> (1,2,3)$<br>
+$L_2 = 0 -> (2, 3, 4)$<br>
+$L_1 = 1 -> (3,5,7)$<br>
+$\vec{a} = L_1 = 1 - L_1 = 0$<br>
+$= 2\hat{i} + 3\hat{j} + 4\hat{k}$<br>
+$\vec{b} = L_2 = 0 - L_1 = 0$<br>
+$= \hat{i} + \hat{j} +\hat{k}$<br>
+$\vec{a} X \vec{b} = \vec{n}$ to find linked plane<br>
+$$
+= \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\\\ 2 & 3 & 4 \\\\ 1 & 1 & 1 \end{vmatrix} = (3-4)\hat{i} - (2-4)\hat{j} +(2-3)\hat{k} = \hat{i} + 2\hat{j} - \hat{k}
+$$
+Find equation for $\vec{n}$<br>
+$(x, y, z) \cdot \vec{n}$<br>
+$\vec{n} \cdot ((x-3)\hat{i} + (y-5)\hat{j} + (z-7)\hat{k})=0$<br>
+$3-x+2y-10+7 -z = 0$<br>
+$-x+2y-z=0$ -> Equation of second plane parallel and first plane<br>
+Get it to match using system of equations:<br>
+$Ax-2y+z=d$<br>
+$-x + 2y - z = 0$<br>
+$x - 2y + z = 0$<br>
+$A = 1$ and $d = 0$<br>
+To find distance:<br>
+$(1, 2, 3)$<br>
+$Ax - 2y + z = d$<br>
+$\dfrac{1 - 4 + 3 = d}{\sqrt{1^2 + 4 + 1}} = \dfrac{-d}{\sqrt{6}} = \sqrt{6}$<br>
+$d = 6$
