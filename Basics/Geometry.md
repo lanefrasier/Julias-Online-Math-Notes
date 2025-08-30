@@ -13,3 +13,4 @@ Circumference - $2\pi r$
 ### Triangle
 
 Area - $\frac{1}{2}bh$
+
