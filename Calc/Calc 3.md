@@ -91,3 +91,7 @@ $\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}, \dfrac{z_1+ z_2}{2}$
 $(x-h)^2 + (y-k)^2 + (z - l)^2 = r^2$<br>
 Where the center is $(h, k, l)$ and the radius $=r$
 
+### Max and Min
+
+1st derivate = 0<br>
+2nd derivative >0 - max, <0 - min
